@@ -1,0 +1,56 @@
+/*
+    cibler tous les cellules qui sont dans le tableau avec 
+    un attribut id égal à tableau-jeu
+*/
+#tableau-jeu td {
+    /* 
+        px : unité en pixel 
+        solid : style de bordure
+        lightgray : couleur de bordure
+    */
+    border: 1px solid lightgray;
+    width: 30px;
+    height: 30px;
+}
+
+/* bordure gauche vide */
+#tableau-jeu #td-1, 
+#tableau-jeu #td-4, 
+#tableau-jeu #td-7 {
+    border-left: 0;
+}
+
+/* bordure droite vide */
+#tableau-jeu #td-3, 
+#tableau-jeu #td-6, 
+#tableau-jeu #td-9 {
+    border-right: 0;
+}
+
+/* bordure haute vide */
+#tableau-jeu #td-1, 
+#tableau-jeu #td-2, 
+#tableau-jeu #td-3 {
+    border-top: 0;
+}
+
+/* bordure basse vide */
+#tableau-jeu #td-7, 
+#tableau-jeu #td-8, 
+#tableau-jeu #td-9 {
+    border-bottom: 0;
+}
+
+.btn {
+    /* occuper toute la place disponible de l'element parent */
+    width: 100%;
+    height: 100%;
+    cursor:pointer;
+    border:0;
+    background-color: transparent;
+    color:black;
+}
+
+.btn:hover {
+    color:red;
+}

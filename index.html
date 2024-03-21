@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>tic tac toe</title>
+
+        <!-- 
+            lien avec fichier externe CSS 
+            href: nom de fichier css
+        -->
+        <link rel="stylesheet" href="index.css">
+
+        <!-- 
+            lien avec fichier externe JS
+            qui s'appelle index.js
+         -->
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <p>Bienvenue au jeu</p>
+        <h2>Règles du jeu</h2>
+        <ul>
+            <li>2 joueurs <b>maximum</b></li>
+            <li>...</li>
+            <li>...</li>
+            <li>...</li>
+        </ul>
+        <table id="tableau-jeu">
+            <tr>
+                <td id="td-1">
+                    <input value="1" class="btn" type="button" onclick="onButtonClick(this,0,0)" />
+                </td>
+                <td id="td-2">
+                    <input value="2" class="btn" type="button" onclick="onButtonClick(this,0,1)" />
+                </td>
+                <td id="td-3">
+                    <input value="3" class="btn" type="button" onclick="onButtonClick(this,0,2)" />
+                </td>
+            </tr>
+            <tr>
+                <td id="td-4">
+                    <input value="4" class="btn" type="button" onclick="onButtonClick(this,1,0)" />
+                </td>
+                <td id="td-5">
+                    <input value="5" class="btn" type="button" onclick="onButtonClick(this,1,1)" />
+                </td>
+                <td id="td-6">
+                    <input value="6" class="btn" type="button" onclick="onButtonClick(this,1,2)" /> 
+                </td>
+            </tr>
+            <tr>
+                <td id="td-7">
+                    <input value="7" class="btn" type="button" onclick="onButtonClick(this,2,0)" />
+                </td>
+                <td id="td-8">
+                    <input value="8" class="btn" type="button" onclick="onButtonClick(this,2,1)" />
+                </td>
+                <td id="td-9">
+                    <input value="9" class="btn" type="button" onclick="onButtonClick(this,2,2)" /> 
+                </td>
+            </tr>
+        </table>
+        <h3 id="alert"></h3>
+    </body>
+</html>
