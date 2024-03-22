@@ -5,4 +5,4 @@ Durant la formation Envol Numérique chez Orange Digital Center, on a pratiquer 
 
 On a utiliser les composants Boostrap
 
-<a href="https://tareknaj.github.io/projet-orange/" target="_blank">Tester le projet</a>
+[Tester le projet](https://tareknaj.github.io/projet-orange/)
